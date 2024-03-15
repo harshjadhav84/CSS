@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .rad{
+        height: 400px;
+        width: 300px;
+        border: 1px solid black;
+        display: inline-block;
+    }
+
+    #rad1{
+        width: 400px;
+        background-image: radial-gradient(yellow, blue, red);
+    }
+    #rad2{
+       
+        background-image: radial-gradient(circle,red 10%,yellow 20%, blue 10% green 20%);
+    }
+    #rad3{
+        width: 400px;
+        background-image: repeating-radial-gradient(red,yellow 15%,blue 20%) ;
+    }
+    #rad4{
+        width: 400px;
+        background-image: radial-gradient(circle, red,yellow,10%, green 20%, blue 20%, indigo 10%);
+    }
+</style>
+<body>
+    <div class="rad" id="rad1"></div>
+    <div class="rad" id="rad2"></div>
+    <div class="rad" id="rad3"></div>
+    <div class="rad" id="rad4"></div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #man
+        {
+            background-image: linear-gradient(135deg, );
+            border: 2px solid black;
+            height: 800px;
+            width: 250px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .parent{
+            height: 250px;
+            width: 250px;
+            border: 2px solid black;
+            background-image: linear-gradient(135deg, #FCCF31);
+        }
+
+        .child{
+
+            height: 30px;
+            width: 35px;
+            border: 2px solid black;
+            background-image: linear-gradient(135deg, #52E5E7);
+        }
+        #first{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #second{
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
+        #third{
+            display: flex;
+            flex-direction: column;
+        }
+        #fourth{
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap-reverse;
+        }
+        #fifth{
+            display: flex;
+            flex-direction: row;
+        }
+        #sisth{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+<div id="main">
+    <div class="parent" id="first">
+        <div class="child">box1</div>
+        <div class="child">box2</div>
+        <div class="child">box3</div>
+        <div class="child">box4</div>
+        <div class="child">box5</div>
+        <div class="child">box6</div>
+    </div>
+    <div class="parent" id="second">
+        <div class="child">box1</div>
+        <div class="child">box2</div>
+        <div class="child">box3</div>
+        <div class="child">box4</div>
+        <div class="child">box5</div>
+        <div class="child">box6</div>
+    </div>
+    <div class="parent" id="third">
+        <div class="child">box1</div>
+        <div class="child">box2</div>
+        <div class="child">box3</div>
+        <div class="child">box4</div>
+        <div class="child">box5</div>
+        <div class="child">box6</div>
+    </div>
+    <div class="parent" id="fourth">
+        <div class="child">box1</div>
+        <div class="child">box2</div>
+        <div class="child">box3</div>
+        <div class="child">box4</div>
+        <div class="child">box5</div>
+        <div class="child">box6</div>
+    </div>
+    <div class="parent" id="fivfth">
+        <div class="child">box1</div>
+        <div class="child">box2</div>
+        <div class="child">box3</div>
+        <div class="child">box4</div>
+        <div class="child">box5</div>
+        <div class="child">box6</div>
+    </div>
+    <div class="parent" id="sixth">
+        <div class="child">box1</div>
+        <div class="child">box2</div>
+        <div class="child">box3</div>
+        <div class="child">box4</div>
+        <div class="child">box5</div>
+        <div class="child">box6</div>
+    </div>
+</div>
+</body>
+</html>
