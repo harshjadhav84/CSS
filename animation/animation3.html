@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: 2px solid black;
+        animation-name: color1;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+        position: relative;
+    }
+@keyframes color1 {
+    from{
+        transform: rotate(0deg);
+background-image: linear-gradient(orange,white,green);
+    }
+    to{
+        transform: rotate(360deg);
+        background-color: blue;
+    }
+}
+ 
+</style>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>

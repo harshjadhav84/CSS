@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: 2px solid black;
+        animation-name: color1;
+        animation-iteration-count: infinite;
+        animation-duration: 7s;
+        position: relative;
+    }
+
+    @keyframes color1 {
+        14%{
+            background-color: red;
+            top: 0%;
+        }
+        28%{
+            background-color: green;
+            bottom: 200px;
+        }
+        42%{
+            background-color: blue;
+            left: 200px;
+            bottom: 100px;
+        }
+        56%{
+            background-color: black;
+            top: 200px;
+        }
+        71%{
+            background-color: pink;
+            transform: rotateX(50deg);
+        }
+        85%{
+            background-color: brown;
+        }
+        100%{
+            background-color: aqua;
+        }
+    }
+</style>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>
